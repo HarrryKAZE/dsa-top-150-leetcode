@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Top Coding Questions — Master Lists</title>
+  <style>
+    body { font-family: Inter, Roboto, Arial, sans-serif; background:#f7f9fb; color:#111;
+           margin:0; padding:24px; }
+    .container { max-width:920px; margin:0 auto; background:white; padding:20px 28px;
+                 border-radius:10px; box-shadow:0 6px 20px rgba(18, 38, 63, .08); }
+    h1 { margin:0 0 8px 0; font-size:20px; }
+    p { margin:0 0 16px 0; color:#445; }
+    input[type="search"]{
+      width:100%; padding:10px 12px; margin-bottom:16px; font-size:15px;
+      border:1px solid #e1e6ef; border-radius:8px; outline:none;
+    }
+    ol { padding-left:18px; margin:0; }
+    li { margin:10px 0; line-height:1.45; }
+    a.q { text-decoration:none; color:#0b66ff; font-weight:600; }
+    a.q:hover { text-decoration:underline; }
+    .meta { color:#6b7280; font-weight:500; margin-left:8px; font-size:13px; }
+    .footer { margin-top:18px; color:#6b7280; font-size:13px; }
+    h2 { margin-top: 24px; font-size: 18px; color: #0b66ff; }
+    .divider { margin: 30px 0; border: none; border-top: 1px solid #e1e6ef; }
+    @media (max-width:640px){ .container{ padding:16px } h1{font-size:18px} h2{font-size:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Amazon Must-Do 30 (Super Core)</h1>
+    <p>This list contains the most fundamental and frequently asked questions across the core data structures and algorithms. Mastering these is crucial.</p>
+    <input id="search-keyword-30" type="search" placeholder="Search by keyword..." />
+
+    <ol id="list-30">
+      <h2>Arrays / Strings</h2>
+      <li><a class="q" href="https://leetcode.com/problems/two-sum/" target="_blank" rel="noopener noreferrer">Two Sum</a> <span class="meta">(#1)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank" rel="noopener noreferrer">Product of Array Except Self</a> <span class="meta">(#238)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/maximum-subarray/" target="_blank" rel="noopener noreferrer">Maximum Subarray</a> <span class="meta">(#53)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock</a> <span class="meta">(#121)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/trapping-rain-water/" target="_blank" rel="noopener noreferrer">Trapping Rain Water</a> <span class="meta">(#42)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/group-anagrams/" target="_blank" rel="noopener noreferrer">Group Anagrams</a> <span class="meta">(#49)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer">Longest Substring Without Repeating Characters</a> <span class="meta">(#3)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer">Minimum Window Substring</a> <span class="meta">(#76)</span></li>
+      <h2>Two Pointers</h2>
+      <li><a class="q" href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer">3Sum</a> <span class="meta">(#15)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer">Container With Most Water</a> <span class="meta">(#11)</span></li>
+      <h2>Stack / Queue</h2>
+      <li><a class="q" href="https://leetcode.com/problems/valid-parentheses/" target="_blank" rel="noopener noreferrer">Valid Parentheses</a> <span class="meta">(#20)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/min-stack/" target="_blank" rel="noopener noreferrer">Min Stack</a> <span class="meta">(#155)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/daily-temperatures/" target="_blank" rel="noopener noreferrer">Daily Temperatures</a> <span class="meta">(#739)</span></li>
+      <h2>Linked List</h2>
+      <li><a class="q" href="https://leetcode.com/problems/linked-list-cycle/" target="_blank" rel="noopener noreferrer">Linked List Cycle</a> <span class="meta">(#141)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank" rel="noopener noreferrer">Merge Two Sorted Lists</a> <span class="meta">(#21)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/add-two-numbers/" target="_blank" rel="noopener noreferrer">Add Two Numbers</a> <span class="meta">(#2)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/lru-cache/" target="_blank" rel="noopener noreferrer">LRU Cache</a> <span class="meta">(#146)</span></li>
+      <h2>Binary Search</h2>
+      <li><a class="q" href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer">Search in Rotated Sorted Array</a> <span class="meta">(#33)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank" rel="noopener noreferrer">Median of Two Sorted Arrays</a> <span class="meta">(#4)</span></li>
+      <h2>Heap / Greedy</h2>
+      <li><a class="q" href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer">Kth Largest Element in an Array</a> <span class="meta">(#215)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/merge-intervals/" target="_blank" rel="noopener noreferrer">Merge Intervals</a> <span class="meta">(#56)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/non-overlapping-intervals/" target="_blank" rel="noopener noreferrer">Non-overlapping Intervals</a> <span class="meta">(#435)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/gas-station/" target="_blank" rel="noopener noreferrer">Gas Station</a> <span class="meta">(#134)</span></li>
+      <h2>Dynamic Programming</h2>
+      <li><a class="q" href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer">Climbing Stairs</a> <span class="meta">(#70)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer">House Robber</a> <span class="meta">(#198)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer">Coin Change</a> <span class="meta">(#322)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer">Longest Increasing Subsequence</a> <span class="meta">(#300)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer">Word Break</a> <span class="meta">(#139)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer">Edit Distance</a> <span class="meta">(#72)</span></li>
+      <h2>Backtracking</h2>
+      <li><a class="q" href="https://leetcode.com/problems/generate-parentheses/" target="_blank" rel="noopener noreferrer">Generate Parentheses</a> <span class="meta">(#22)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-search/" target="_blank" rel="noopener noreferrer">Word Search</a> <span class="meta">(#79)</span></li>
+    </ol>
+
+    <hr class="divider" />
+
+    <h1>Top 65 Coding Questions</h1>
+    <p>Click any question to open the LeetCode problem in a new tab. Use the search box to filter.</p>
+    <input id="search-keyword-65" type="search" placeholder="Search by keyword..." />
+
+    <ol id="list-65">
+      <h2>Arrays & Strings</h2>
+      <li><a class="q" href="https://leetcode.com/problems/two-sum/" target="_blank" rel="noopener noreferrer">1. Two Sum</a> <span class="meta">(#1)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank" rel="noopener noreferrer">2. Product of Array Except Self</a> <span class="meta">(#238)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/maximum-subarray/" target="_blank" rel="noopener noreferrer">3. Maximum Subarray</a> <span class="meta">(#53)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer">4. Best Time to Buy and Sell Stock</a> <span class="meta">(#121)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer">5. Best Time to Buy and Sell Stock II</a> <span class="meta">(#122)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/rotate-array/" target="_blank" rel="noopener noreferrer">6. Rotate Array</a> <span class="meta">(#189)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/trapping-rain-water/" target="_blank" rel="noopener noreferrer">7. Trapping Rain Water</a> <span class="meta">(#42)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer">8. Longest Substring Without Repeating Characters</a> <span class="meta">(#3)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer">9. Minimum Window Substring</a> <span class="meta">(#76)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/group-anagrams/" target="_blank" rel="noopener noreferrer">10. Group Anagrams</a> <span class="meta">(#49)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/valid-anagram/" target="_blank" rel="noopener noreferrer">11. Valid Anagram</a> <span class="meta">(#242)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank" rel="noopener noreferrer">12. Remove Duplicates from Sorted Array</a> <span class="meta">(#26)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer">13. 3Sum</a> <span class="meta">(#15)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer">14. Container With Most Water</a> <span class="meta">(#11)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-element/" target="_blank" rel="noopener noreferrer">57. Remove Element</a> <span class="meta">(#27)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/" target="_blank" rel="noopener noreferrer">58. Remove Duplicates from Sorted Array II</a> <span class="meta">(#80)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-words-in-a-string/" target="_blank" rel="noopener noreferrer">53. Reverse Words in a String</a> <span class="meta">(#151)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer">54. Valid Palindrome</a> <span class="meta">(#125)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/is-subsequence/" target="_blank" rel="noopener noreferrer">55. Is Subsequence</a> <span class="meta">(#392)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener noreferrer">56. Two Sum II - Input Array Is Sorted</a> <span class="meta">(#167)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/sort-colors/" target="_blank" rel="noopener noreferrer">65. Sort Colors</a> <span class="meta">(#75)</span></li>
+
+      <h2>Sliding Window</h2>
+      <li><a class="q" href="https://leetcode.com/problems/sliding-window-maximum/" target="_blank" rel="noopener noreferrer">15. Sliding Window Maximum</a> <span class="meta">(#239)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-size-subarray-sum/" target="_blank" rel="noopener noreferrer">16. Minimum Size Subarray Sum</a> <span class="meta">(#209)</span></li>
+
+      <h2>Stack</h2>
+      <li><a class="q" href="https://leetcode.com/problems/valid-parentheses/" target="_blank" rel="noopener noreferrer">17. Valid Parentheses</a> <span class="meta">(#20)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/min-stack/" target="_blank" rel="noopener noreferrer">18. Min Stack</a> <span class="meta">(#155)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/daily-temperatures/" target="_blank" rel="noopener noreferrer">19. Daily Temperatures</a> <span class="meta">(#739)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/simplify-path/" target="_blank" rel="noopener noreferrer">63. Simplify Path</a> <span class="meta">(#71)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/evaluate-reverse-polish-notation/" target="_blank" rel="noopener noreferrer">64. Evaluate Reverse Polish Notation</a> <span class="meta">(#150)</span></li>
+
+      <h2>Linked List</h2>
+      <li><a class="q" href="https://leetcode.com/problems/linked-list-cycle/" target="_blank" rel="noopener noreferrer">20. Linked List Cycle</a> <span class="meta">(#141)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank" rel="noopener noreferrer">21. Merge Two Sorted Lists</a> <span class="meta">(#21)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-linked-list-ii/" target="_blank" rel="noopener noreferrer">22. Reverse Linked List II</a> <span class="meta">(#92)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/add-two-numbers/" target="_blank" rel="noopener noreferrer">23. Add Two Numbers</a> <span class="meta">(#2)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/lru-cache/" target="_blank" rel="noopener noreferrer">24. LRU Cache</a> <span class="meta">(#146)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/rotate-list/" target="_blank" rel="noopener noreferrer">59. Rotate List</a> <span class="meta">(#61)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank" rel="noopener noreferrer">60. Remove Nth Node From End of List</a> <span class="meta">(#19)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-nodes-in-k-group/" target="_blank" rel="noopener noreferrer">61. Reverse Nodes in k-Group</a> <span class="meta">(#25)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/partition-list/" target="_blank" rel="noopener noreferrer">62. Partition List</a> <span class="meta">(#86)</span></li>
+
+      <h2>Binary Search</h2>
+      <li><a class="q" href="https://leetcode.com/problems/search-insert-position/" target="_blank" rel="noopener noreferrer">25. Search Insert Position</a> <span class="meta">(#35)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer">26. Search in Rotated Sorted Array</a> <span class="meta">(#33)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer">27. Find Minimum in Rotated Sorted Array</a> <span class="meta">(#153)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" target="_blank" rel="noopener noreferrer">28. Find First and Last Position of Element in Sorted Array</a> <span class="meta">(#34)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank" rel="noopener noreferrer">29. Median of Two Sorted Arrays</a> <span class="meta">(#4)</span></li>
+
+      <h2>Heap / Priority Queue</h2>
+      <li><a class="q" href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer">30. Kth Largest Element in an Array</a> <span class="meta">(#215)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/ipo/" target="_blank" rel="noopener noreferrer">31. IPO</a> <span class="meta">(#502)</span></li>
+
+      <h2>Intervals & Greedy</h2>
+      <li><a class="q" href="https://leetcode.com/problems/merge-intervals/" target="_blank" rel="noopener noreferrer">32. Merge Intervals</a> <span class="meta">(#56)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/non-overlapping-intervals/" target="_blank" rel="noopener noreferrer">33. Non-overlapping Intervals</a> <span class="meta">(#435)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/gas-station/" target="_blank" rel="noopener noreferrer">34. Gas Station</a> <span class="meta">(#134)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/candy/" target="_blank" rel="noopener noreferrer">35. Candy</a> <span class="meta">(#135)</span></li>
+
+      <h2>Dynamic Programming</h2>
+      <li><a class="q" href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer">36. Climbing Stairs</a> <span class="meta">(#70)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer">37. House Robber</a> <span class="meta">(#198)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer">38. Coin Change</a> <span class="meta">(#322)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer">39. Longest Increasing Subsequence</a> <span class="meta">(#300)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer">40. Word Break</a> <span class="meta">(#139)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer">41. Edit Distance</a> <span class="meta">(#72)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer">42. Longest Palindromic Substring</a> <span class="meta">(#5)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer">43. Longest Common Subsequence</a> <span class="meta">(#1143)</span></li>
+
+      <h2>Backtracking</h2>
+      <li><a class="q" href="https://leetcode.com/problems/generate-parentheses/" target="_blank" rel="noopener noreferrer">44. Generate Parentheses</a> <span class="meta">(#22)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/combinations/" target="_blank" rel="noopener noreferrer">45. Combinations</a> <span class="meta">(#77)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/permutations/" target="_blank" rel="noopener noreferrer">46. Permutations</a> <span class="meta">(#46)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/combination-sum/" target="_blank" rel="noopener noreferrer">47. Combination Sum</a> <span class="meta">(#39)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-search/" target="_blank" rel="noopener noreferrer">48. Word Search</a> <span class="meta">(#79)</span></li>
+
+      <h2>Bit Manipulation</h2>
+      <li><a class="q" href="https://leetcode.com/problems/single-number/" target="_blank" rel="noopener noreferrer">49. Single Number</a> <span class="meta">(#136)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/number-of-1-bits/" target="_blank" rel="noopener noreferrer">50. Number of 1 Bits</a> <span class="meta">(#191)</span></li>
+
+      <h2>Math</h2>
+      <li><a class="q" href="https://leetcode.com/problems/sqrtx/" target="_blank" rel="noopener noreferrer">51. Sqrt(x)</a> <span class="meta">(#69)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/powx-n/" target="_blank" rel="noopener noreferrer">52. Pow(x, n)</a> <span class="meta">(#50)</span></li>
+    </ol>
+    <div class="footer">
+      Tip: Master the patterns (two-pointers, sliding-window, monotonic stack, binary search, DP, heap, hashing). Once you can solve these 65, the rest are variants.
+    </div>
+
+    <hr class="divider" />
+    
+    <h1>Master Amazon Prep List with LeetCode Numbers (162 Problems)</h1>
+    <p>This list is a comprehensive guide to problems commonly seen in Amazon and other FAANG interviews.</p>
+    <input id="search-keyword-amazon" type="search" placeholder="Search by keyword..." />
+
+    <ol id="list-amazon">
+      <h2>Arrays / Strings</h2>
+      <li><a class="q" href="https://leetcode.com/problems/merge-sorted-array/" target="_blank" rel="noopener noreferrer">Merge Sorted Array</a> <span class="meta">(#88)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-element/" target="_blank" rel="noopener noreferrer">Remove Element</a> <span class="meta">(#27)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank" rel="noopener noreferrer">Remove Duplicates from Sorted Array</a> <span class="meta">(#26)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/" target="_blank" rel="noopener noreferrer">Remove Duplicates from Sorted Array II</a> <span class="meta">(#80)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/majority-element/" target="_blank" rel="noopener noreferrer">Majority Element</a> <span class="meta">(#169)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/rotate-array/" target="_blank" rel="noopener noreferrer">Rotate Array</a> <span class="meta">(#189)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock</a> <span class="meta">(#121)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock II</a> <span class="meta">(#122)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/jump-game/" target="_blank" rel="noopener noreferrer">Jump Game</a> <span class="meta">(#55)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/jump-game-ii/" target="_blank" rel="noopener noreferrer">Jump Game II</a> <span class="meta">(#45)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/h-index/" target="_blank" rel="noopener noreferrer">H-Index</a> <span class="meta">(#274)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/insert-delete-getrandom-o1/" target="_blank" rel="noopener noreferrer">Insert Delete GetRandom O(1)</a> <span class="meta">(#380)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank" rel="noopener noreferrer">Product of Array Except Self</a> <span class="meta">(#238)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/gas-station/" target="_blank" rel="noopener noreferrer">Gas Station</a> <span class="meta">(#134)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/candy/" target="_blank" rel="noopener noreferrer">Candy</a> <span class="meta">(#135)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/trapping-rain-water/" target="_blank" rel="noopener noreferrer">Trapping Rain Water</a> <span class="meta">(#42)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/roman-to-integer/" target="_blank" rel="noopener noreferrer">Roman to Integer</a> <span class="meta">(#13)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/integer-to-roman/" target="_blank" rel="noopener noreferrer">Integer to Roman</a> <span class="meta">(#12)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/length-of-last-word/" target="_blank" rel="noopener noreferrer">Length of Last Word</a> <span class="meta">(#58)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-common-prefix/" target="_blank" rel="noopener noreferrer">Longest Common Prefix</a> <span class="meta">(#14)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-words-in-a-string/" target="_blank" rel="noopener noreferrer">Reverse Words in a String</a> <span class="meta">(#151)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/zigzag-conversion/" target="_blank" rel="noopener noreferrer">Zigzag Conversion</a> <span class="meta">(#6)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" target="_blank" rel="noopener noreferrer">Find the Index of the First Occurrence in a String</a> <span class="meta">(#28)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/text-justification/" target="_blank" rel="noopener noreferrer">Text Justification</a> <span class="meta">(#68)</span></li>
+
+      <h2>Two Pointers</h2>
+      <li><a class="q" href="https://leetcode.com/problems/valid-palindrome/" target="_blank" rel="noopener noreferrer">Valid Palindrome</a> <span class="meta">(#125)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/is-subsequence/" target="_blank" rel="noopener noreferrer">Is Subsequence</a> <span class="meta">(#392)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank" rel="noopener noreferrer">Two Sum II – Input Array Is Sorted</a> <span class="meta">(#167)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/container-with-most-water/" target="_blank" rel="noopener noreferrer">Container With Most Water</a> <span class="meta">(#11)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/3sum/" target="_blank" rel="noopener noreferrer">3Sum</a> <span class="meta">(#15)</span></li>
+
+      <h2>Sliding Window</h2>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-size-subarray-sum/" target="_blank" rel="noopener noreferrer">Minimum Size Subarray Sum</a> <span class="meta">(#209)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank" rel="noopener noreferrer">Longest Substring Without Repeating Characters</a> <span class="meta">(#3)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/substring-with-concatenation-of-all-words/" target="_blank" rel="noopener noreferrer">Substring with Concatenation of All Words</a> <span class="meta">(#30)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-window-substring/" target="_blank" rel="noopener noreferrer">Minimum Window Substring</a> <span class="meta">(#76)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/sliding-window-maximum/" target="_blank" rel="noopener noreferrer">Sliding Window Maximum</a> <span class="meta">(#239)</span></li>
+
+      <h2>Matrix</h2>
+      <li><a class="q" href="https://leetcode.com/problems/valid-sudoku/" target="_blank" rel="noopener noreferrer">Valid Sudoku</a> <span class="meta">(#36)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/spiral-matrix/" target="_blank" rel="noopener noreferrer">Spiral Matrix</a> <span class="meta">(#54)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/rotate-image/" target="_blank" rel="noopener noreferrer">Rotate Image</a> <span class="meta">(#48)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank" rel="noopener noreferrer">Set Matrix Zeroes</a> <span class="meta">(#73)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/game-of-life/" target="_blank" rel="noopener noreferrer">Game of Life</a> <span class="meta">(#289)</span></li>
+
+      <h2>Hashmap</h2>
+      <li><a class="q" href="https://leetcode.com/problems/ransom-note/" target="_blank" rel="noopener noreferrer">Ransom Note</a> <span class="meta">(#383)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/isomorphic-strings/" target="_blank" rel="noopener noreferrer">Isomorphic Strings</a> <span class="meta">(#205)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-pattern/" target="_blank" rel="noopener noreferrer">Word Pattern</a> <span class="meta">(#290)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/valid-anagram/" target="_blank" rel="noopener noreferrer">Valid Anagram</a> <span class="meta">(#242)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/group-anagrams/" target="_blank" rel="noopener noreferrer">Group Anagrams</a> <span class="meta">(#49)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/two-sum/" target="_blank" rel="noopener noreferrer">Two Sum</a> <span class="meta">(#1)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/happy-number/" target="_blank" rel="noopener noreferrer">Happy Number</a> <span class="meta">(#202)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/contains-duplicate-ii/" target="_blank" rel="noopener noreferrer">Contains Duplicate II</a> <span class="meta">(#219)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-consecutive-sequence/" target="_blank" rel="noopener noreferrer">Longest Consecutive Sequence</a> <span class="meta">(#128)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/subarray-sum-equals-k/" target="_blank" rel="noopener noreferrer">Subarray Sum Equals K</a> <span class="meta">(#560)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/time-based-key-value-store/" target="_blank" rel="noopener noreferrer">Time Based Key-Value Store</a> <span class="meta">(#981)</span></li>
+
+      <h2>Intervals</h2>
+      <li><a class="q" href="https://leetcode.com/problems/summary-ranges/" target="_blank" rel="noopener noreferrer">Summary Ranges</a> <span class="meta">(#228)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/merge-intervals/" target="_blank" rel="noopener noreferrer">Merge Intervals</a> <span class="meta">(#56)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/insert-interval/" target="_blank" rel="noopener noreferrer">Insert Interval</a> <span class="meta">(#57)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/" target="_blank" rel="noopener noreferrer">Minimum Number of Arrows to Burst Balloons</a> <span class="meta">(#452)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/non-overlapping-intervals/" target="_blank" rel="noopener noreferrer">Non-overlapping Intervals</a> <span class="meta">(#435)</span></li>
+
+      <h2>Stack</h2>
+      <li><a class="q" href="https://leetcode.com/problems/valid-parentheses/" target="_blank" rel="noopener noreferrer">Valid Parentheses</a> <span class="meta">(#20)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/simplify-path/" target="_blank" rel="noopener noreferrer">Simplify Path</a> <span class="meta">(#71)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/min-stack/" target="_blank" rel="noopener noreferrer">Min Stack</a> <span class="meta">(#155)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/evaluate-reverse-polish-notation/" target="_blank" rel="noopener noreferrer">Evaluate Reverse Polish Notation</a> <span class="meta">(#150)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/basic-calculator/" target="_blank" rel="noopener noreferrer">Basic Calculator</a> <span class="meta">(#224)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/daily-temperatures/" target="_blank" rel="noopener noreferrer">Daily Temperatures</a> <span class="meta">(#739)</span></li>
+
+      <h2>Linked List</h2>
+      <li><a class="q" href="https://leetcode.com/problems/linked-list-cycle/" target="_blank" rel="noopener noreferrer">Linked List Cycle</a> <span class="meta">(#141)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/add-two-numbers/" target="_blank" rel="noopener noreferrer">Add Two Numbers</a> <span class="meta">(#2)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank" rel="noopener noreferrer">Merge Two Sorted Lists</a> <span class="meta">(#21)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/copy-list-with-random-pointer/" target="_blank" rel="noopener noreferrer">Copy List with Random Pointer</a> <span class="meta">(#138)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-linked-list-ii/" target="_blank" rel="noopener noreferrer">Reverse Linked List II</a> <span class="meta">(#92)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-nodes-in-k-group/" target="_blank" rel="noopener noreferrer">Reverse Nodes in k-Group</a> <span class="meta">(#25)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank" rel="noopener noreferrer">Remove Nth Node From End of List</a> <span class="meta">(#19)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/" target="_blank" rel="noopener noreferrer">Remove Duplicates from Sorted List II</a> <span class="meta">(#82)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/rotate-list/" target="_blank" rel="noopener noreferrer">Rotate List</a> <span class="meta">(#61)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/partition-list/" target="_blank" rel="noopener noreferrer">Partition List</a> <span class="meta">(#86)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/lru-cache/" target="_blank" rel="noopener noreferrer">LRU Cache</a> <span class="meta">(#146)</span></li>
+
+      <h2>Binary Tree – General</h2>
+      <li><a class="q" href="https://leetcode.com/problems/maximum-depth-of-binary-tree/" target="_blank" rel="noopener noreferrer">Maximum Depth of Binary Tree</a> <span class="meta">(#104)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/same-tree/" target="_blank" rel="noopener noreferrer">Same Tree</a> <span class="meta">(#100)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/invert-binary-tree/" target="_blank" rel="noopener noreferrer">Invert Binary Tree</a> <span class="meta">(#226)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/symmetric-tree/" target="_blank" rel="noopener noreferrer">Symmetric Tree</a> <span class="meta">(#101)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" target="_blank" rel="noopener noreferrer">Construct Binary Tree from Preorder and Inorder Traversal</a> <span class="meta">(#105)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/" target="_blank" rel="noopener noreferrer">Construct Binary Tree from Inorder and Postorder Traversal</a> <span class="meta">(#106)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/" target="_blank" rel="noopener noreferrer">Populating Next Right Pointers in Each Node II</a> <span class="meta">(#117)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/" target="_blank" rel="noopener noreferrer">Flatten Binary Tree to Linked List</a> <span class="meta">(#114)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/path-sum/" target="_blank" rel="noopener noreferrer">Path Sum</a> <span class="meta">(#112)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/sum-root-to-leaf-numbers/" target="_blank" rel="noopener noreferrer">Sum Root to Leaf Numbers</a> <span class="meta">(#129)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/binary-tree-maximum-path-sum/" target="_blank" rel="noopener noreferrer">Binary Tree Maximum Path Sum</a> <span class="meta">(#124)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/binary-search-tree-iterator/" target="_blank" rel="noopener noreferrer">Binary Search Tree Iterator</a> <span class="meta">(#173)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/count-complete-tree-nodes/" target="_blank" rel="noopener noreferrer">Count Complete Tree Nodes</a> <span class="meta">(#222)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/" target="_blank" rel="noopener noreferrer">Lowest Common Ancestor of a Binary Tree</a> <span class="meta">(#236)</span></li>
+
+      <h2>Binary Tree – BFS</h2>
+      <li><a class="q" href="https://leetcode.com/problems/binary-tree-right-side-view/" target="_blank" rel="noopener noreferrer">Binary Tree Right Side View</a> <span class="meta">(#199)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/average-of-levels-in-binary-tree/" target="_blank" rel="noopener noreferrer">Average of Levels in Binary Tree</a> <span class="meta">(#637)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/binary-tree-level-order-traversal/" target="_blank" rel="noopener noreferrer">Binary Tree Level Order Traversal</a> <span class="meta">(#102)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/" target="_blank" rel="noopener noreferrer">Binary Tree Zigzag Level Order Traversal</a> <span class="meta">(#103)</span></li>
+
+      <h2>Binary Search Tree</h2>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-absolute-difference-in-bst/" target="_blank" rel="noopener noreferrer">Minimum Absolute Difference in BST</a> <span class="meta">(#530)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/" target="_blank" rel="noopener noreferrer">Kth Smallest Element in a BST</a> <span class="meta">(#230)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/validate-binary-search-tree/" target="_blank" rel="noopener noreferrer">Validate Binary Search Tree</a> <span class="meta">(#98)</span></li>
+
+      <h2>Graph – General</h2>
+      <li><a class="q" href="https://leetcode.com/problems/number-of-islands/" target="_blank" rel="noopener noreferrer">Number of Islands</a> <span class="meta">(#200)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/surrounded-regions/" target="_blank" rel="noopener noreferrer">Surrounded Regions</a> <span class="meta">(#130)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/clone-graph/" target="_blank" rel="noopener noreferrer">Clone Graph</a> <span class="meta">(#133)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/evaluate-division/" target="_blank" rel="noopener noreferrer">Evaluate Division</a> <span class="meta">(#399)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/course-schedule/" target="_blank" rel="noopener noreferrer">Course Schedule</a> <span class="meta">(#207)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/course-schedule-ii/" target="_blank" rel="noopener noreferrer">Course Schedule II</a> <span class="meta">(#210)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/number-of-provinces/" target="_blank" rel="noopener noreferrer">Number of Provinces</a> <span class="meta">(#547)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/accounts-merge/" target="_blank" rel="noopener noreferrer">Accounts Merge</a> <span class="meta">(#721)</span></li>
+
+      <h2>Graph – BFS</h2>
+      <li><a class="q" href="https://leetcode.com/problems/snakes-and-ladders/" target="_blank" rel="noopener noreferrer">Snakes and Ladders</a> <span class="meta">(#909)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-genetic-mutation/" target="_blank" rel="noopener noreferrer">Minimum Genetic Mutation</a> <span class="meta">(#433)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-ladder/" target="_blank" rel="noopener noreferrer">Word Ladder</a> <span class="meta">(#127)</span></li>
+
+      <h2>Trie</h2>
+      <li><a class="q" href="https://leetcode.com/problems/implement-trie-prefix-tree/" target="_blank" rel="noopener noreferrer">Implement Trie (Prefix Tree)</a> <span class="meta">(#208)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/design-add-and-search-words-data-structure/" target="_blank" rel="noopener noreferrer">Design Add and Search Words Data Structure</a> <span class="meta">(#211)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-search-ii/" target="_blank" rel="noopener noreferrer">Word Search II</a> <span class="meta">(#212)</span></li>
+
+      <h2>Backtracking</h2>
+      <li><a class="q" href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/" target="_blank" rel="noopener noreferrer">Letter Combinations of a Phone Number</a> <span class="meta">(#17)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/combinations/" target="_blank" rel="noopener noreferrer">Combinations</a> <span class="meta">(#77)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/permutations/" target="_blank" rel="noopener noreferrer">Permutations</a> <span class="meta">(#46)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/combination-sum/" target="_blank" rel="noopener noreferrer">Combination Sum</a> <span class="meta">(#39)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/n-queens-ii/" target="_blank" rel="noopener noreferrer">N-Queens II</a> <span class="meta">(#52)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/generate-parentheses/" target="_blank" rel="noopener noreferrer">Generate Parentheses</a> <span class="meta">(#22)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-search/" target="_blank" rel="noopener noreferrer">Word Search</a> <span class="meta">(#79)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/remove-invalid-parentheses/" target="_blank" rel="noopener noreferrer">Remove Invalid Parentheses</a> <span class="meta">(#301)</span></li>
+
+      <h2>Divide & Conquer</h2>
+      <li><a class="q" href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/" target="_blank" rel="noopener noreferrer">Convert Sorted Array to Binary Search Tree</a> <span class="meta">(#108)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/sort-list/" target="_blank" rel="noopener noreferrer">Sort List</a> <span class="meta">(#148)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/construct-quad-tree/" target="_blank" rel="noopener noreferrer">Construct Quad Tree</a> <span class="meta">(#427)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank" rel="noopener noreferrer">Merge k Sorted Lists</a> <span class="meta">(#23)</span></li>
+
+      <h2>Kadane’s Algorithm</h2>
+      <li><a class="q" href="https://leetcode.com/problems/maximum-subarray/" target="_blank" rel="noopener noreferrer">Maximum Subarray</a> <span class="meta">(#53)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/maximum-sum-circular-subarray/" target="_blank" rel="noopener noreferrer">Maximum Sum Circular Subarray</a> <span class="meta">(#918)</span></li>
+
+      <h2>Binary Search</h2>
+      <li><a class="q" href="https://leetcode.com/problems/search-insert-position/" target="_blank" rel="noopener noreferrer">Search Insert Position</a> <span class="meta">(#35)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/search-a-2d-matrix/" target="_blank" rel="noopener noreferrer">Search a 2D Matrix</a> <span class="meta">(#74)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-peak-element/" target="_blank" rel="noopener noreferrer">Find Peak Element</a> <span class="meta">(#162)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer">Search in Rotated Sorted Array</a> <span class="meta">(#33)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/" target="_blank" rel="noopener noreferrer">Find First and Last Position of Element in Sorted Array</a> <span class="meta">(#34)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/" target="_blank" rel="noopener noreferrer">Find Minimum in Rotated Sorted Array</a> <span class="meta">(#153)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank" rel="noopener noreferrer">Median of Two Sorted Arrays</a> <span class="meta">(#4)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/split-array-largest-sum/" target="_blank" rel="noopener noreferrer">Split Array Largest Sum</a> <span class="meta">(#410)</span></li>
+
+      <h2>Heap</h2>
+      <li><a class="q" href="https://leetcode.com/problems/kth-largest-element-in-an-array/" target="_blank" rel="noopener noreferrer">Kth Largest Element in an Array</a> <span class="meta">(#215)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/ipo/" target="_blank" rel="noopener noreferrer">IPO</a> <span class="meta">(#502)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-k-pairs-with-smallest-sums/" target="_blank" rel="noopener noreferrer">Find K Pairs with Smallest Sums</a> <span class="meta">(#373)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/find-median-from-data-stream/" target="_blank" rel="noopener noreferrer">Find Median from Data Stream</a> <span class="meta">(#295)</span></li>
+
+      <h2>Bit Manipulation</h2>
+      <li><a class="q" href="https://leetcode.com/problems/add-binary/" target="_blank" rel="noopener noreferrer">Add Binary</a> <span class="meta">(#67)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/reverse-bits/" target="_blank" rel="noopener noreferrer">Reverse Bits</a> <span class="meta">(#190)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/number-of-1-bits/" target="_blank" rel="noopener noreferrer">Number of 1 Bits</a> <span class="meta">(#191)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/single-number/" target="_blank" rel="noopener noreferrer">Single Number</a> <span class="meta">(#136)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/single-number-ii/" target="_blank" rel="noopener noreferrer">Single Number II</a> <span class="meta">(#137)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/bitwise-and-of-numbers-range/" target="_blank" rel="noopener noreferrer">Bitwise AND of Numbers Range</a> <span class="meta">(#201)</span></li>
+
+      <h2>Math</h2>
+      <li><a class="q" href="https://leetcode.com/problems/palindrome-number/" target="_blank" rel="noopener noreferrer">Palindrome Number</a> <span class="meta">(#9)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/plus-one/" target="_blank" rel="noopener noreferrer">Plus One</a> <span class="meta">(#66)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/factorial-trailing-zeroes/" target="_blank" rel="noopener noreferrer">Factorial Trailing Zeroes</a> <span class="meta">(#172)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/sqrtx/" target="_blank" rel="noopener noreferrer">Sqrt(x)</a> <span class="meta">(#69)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/powx-n/" target="_blank" rel="noopener noreferrer">Pow(x, n)</a> <span class="meta">(#50)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/max-points-on-a-line/" target="_blank" rel="noopener noreferrer">Max Points on a Line</a> <span class="meta">(#149)</span></li>
+
+      <h2>1D Dynamic Programming</h2>
+      <li><a class="q" href="https://leetcode.com/problems/climbing-stairs/" target="_blank" rel="noopener noreferrer">Climbing Stairs</a> <span class="meta">(#70)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/house-robber/" target="_blank" rel="noopener noreferrer">House Robber</a> <span class="meta">(#198)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/word-break/" target="_blank" rel="noopener noreferrer">Word Break</a> <span class="meta">(#139)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/coin-change/" target="_blank" rel="noopener noreferrer">Coin Change</a> <span class="meta">(#322)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-increasing-subsequence/" target="_blank" rel="noopener noreferrer">Longest Increasing Subsequence</a> <span class="meta">(#300)</span></li>
+
+      <h2>2D / Multidimensional DP</h2>
+      <li><a class="q" href="https://leetcode.com/problems/triangle/" target="_blank" rel="noopener noreferrer">Triangle</a> <span class="meta">(#120)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/minimum-path-sum/" target="_blank" rel="noopener noreferrer">Minimum Path Sum</a> <span class="meta">(#64)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/unique-paths-ii/" target="_blank" rel="noopener noreferrer">Unique Paths II</a> <span class="meta">(#63)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-palindromic-substring/" target="_blank" rel="noopener noreferrer">Longest Palindromic Substring</a> <span class="meta">(#5)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/interleaving-string/" target="_blank" rel="noopener noreferrer">Interleaving String</a> <span class="meta">(#97)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/edit-distance/" target="_blank" rel="noopener noreferrer">Edit Distance</a> <span class="meta">(#72)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock III</a> <span class="meta">(#123)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/" target="_blank" rel="noopener noreferrer">Best Time to Buy and Sell Stock IV</a> <span class="meta">(#188)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/maximal-square/" target="_blank" rel="noopener noreferrer">Maximal Square</a> <span class="meta">(#221)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/palindromic-substrings/" target="_blank" rel="noopener noreferrer">Palindromic Substrings</a> <span class="meta">(#647)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-palindromic-subsequence/" target="_blank" rel="noopener noreferrer">Longest Palindromic Subsequence</a> <span class="meta">(#516)</span></li>
+      <li><a class="q" href="https://leetcode.com/problems/longest-common-subsequence/" target="_blank" rel="noopener noreferrer">Longest Common Subsequence</a> <span class="meta">(#1143)</span></li>
+    </ol>
+
+    <div class="footer">
+      🎯 Final Count: 162 problems (150 original + 12 missing)<br>
+      ✅ This is now your definitive Amazon + FAANG prep list.
+    </div>
+  </div>
+
+  <script>
+    // Function to set up the search functionality for a given list and input.
+    function setupSearch(listId, inputId) {
+      const input = document.getElementById(inputId);
+      const list = document.getElementById(listId);
+      const items = Array.from(list.getElementsByTagName('li'));
+
+      input.addEventListener('input', function() {
+        const q = input.value.trim().toLowerCase();
+        const h2s = Array.from(list.getElementsByTagName('h2'));
+        
+        if (!q) {
+          items.forEach(i => i.style.display = '');
+          h2s.forEach(h2 => h2.style.display = '');
+          return;
+        }
+        
+        items.forEach(li => {
+          const text = li.textContent.toLowerCase();
+          li.style.display = text.indexOf(q) !== -1 ? '' : 'none';
+        });
+        
+        // Hide categories that have no matching questions
+        h2s.forEach(h2 => {
+          let nextSibling = h2.nextElementSibling;
+          let hasVisibleItem = false;
+          while (nextSibling && nextSibling.tagName === 'LI') {
+            if (nextSibling.style.display !== 'none') {
+              hasVisibleItem = true;
+              break;
+            }
+            nextSibling = nextSibling.nextElementSibling;
+          }
+          h2.style.display = hasVisibleItem ? '' : 'none';
+        });
+      });
+
+      // Allow hitting enter in search to focus the first visible link.
+      input.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+          const first = items.find(i => i.style.display !== 'none');
+          if (first) {
+            const a = first.querySelector('a.q');
+            if (a) a.focus();
+          }
+        }
+      });
+    }
+
+    // Setup search for the three lists.
+    setupSearch('list-30', 'search-keyword-30');
+    setupSearch('list-65', 'search-keyword-65');
+    setupSearch('list-amazon', 'search-keyword-amazon');
+  </script>
+</body>
+</html>
