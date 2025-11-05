@@ -178,9 +178,3 @@ Spend 2–4 additional weeks on those if aiming at full-time FAANG.
 4. Prepare 6 STAR stories and practice explaining solutions.
 5. Track readiness by the **readiness metrics** above.
 
----
-
-Want me to:
-
-* generate a **Top 20 clickable HTML** like you had earlier, or
-* turn this into a **weekly calendar** you can copy into Google Calendar (with specific problems per day)?
